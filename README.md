@@ -6,7 +6,6 @@
 
 \* denotes equal contribution
 
-
 Reference code for the paper [Color-Aware Style Transfer.]() Mahmoud Afifi, Abdullah Abuolaim, Mostafa Korashy, Marcus A. Brubaker, and Michael S. Brown. arXiv preprint, 2021. If you use this code, please cite our paper:
 ```
 @article{afifi2021coloraware,
@@ -17,5 +16,4 @@ Reference code for the paper [Color-Aware Style Transfer.]() Mahmoud Afifi, Abdu
 }
 ```
 
-
-[Colab](https://colab.research.google.com/drive/1_unMZ4zUqKwnSmMVZ1KknZQ74CXJzfvg?usp=sharing)
+Run `color_aware_st.py` or check the Colab link from [here](https://colab.research.google.com/drive/1_unMZ4zUqKwnSmMVZ1KknZQ74CXJzfvg?usp=sharing). 

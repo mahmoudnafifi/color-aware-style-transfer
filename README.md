@@ -16,4 +16,30 @@ Reference code for the paper [Color-Aware Style Transfer.]() Mahmoud Afifi, Abdu
 }
 ```
 
+![github](https://user-images.githubusercontent.com/37669469/122465812-8478ab00-cf86-11eb-86ba-8f98dc1d76ba.jpg)
+
+
+### Get Started
 Run `color_aware_st.py` or check the Colab link from [here](https://colab.research.google.com/drive/1_unMZ4zUqKwnSmMVZ1KknZQ74CXJzfvg?usp=sharing). 
+
+### Manual Selection
+Our method allows the user to manually select the color correspondences between palettes or ignore some colors when optimizing. 
+![user_selection](https://user-images.githubusercontent.com/37669469/122466000-bd188480-cf86-11eb-92e2-f7ad46d07140.jpg)
+
+To enable this mode, use `SELECT_MATCHES = True`.
+
+### Other useful parameters:
+* `SMOOTH`: smooth generated mask before optimizing.
+* `SHOW_MASKS`: to visualize the generated masks during optimization.
+* `SIGMA`: to control the fall off in the radial basis function when generating the masks. Play with its value to get different results; generally, 0.25 and 0.3 work well in most cases.
+* `PALETTE_SIZE`: number of colors in each palette.
+* `ADD_BLACK_WHITE`: to append black and white colors to the final palette before optimizing.
+* `STYLE_LOSS_WEIGHT`: weight of style loss
+* `CONTENT_LOSS_WEIGHT`: weight of content loss.
+* `COLOR_DISTANCE`: similarity metric when computing the mask. Options include: `'chroma_L2'` (L2 on chroma space) or `'L2'` (L2 on RGB space).
+* `STYLE_FEATURE_DISTANCE`: similarity metric for style loss. Options include: `'L2'` or `'COSINE'` (for cosine similarity). 
+* `CONTENT_FEATURE_DISTANCE`: = similarity metric for content loss. Options include: `'L2'` or `'COSINE'` (for cosine similarity). 
+* `OPTIMIZER`: optimization algorithm. Options include: `'LBFGS'`, `'Adam'`, `'Adagrad'`.
+
+
+### MIT License

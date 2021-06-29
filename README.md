@@ -6,12 +6,12 @@
 
 \* denotes equal contribution
 
-Reference code for the paper [CAMS: Color-Aware Multi-Style Transfer.]() Mahmoud Afifi, Abdullah Abuolaim, Mostafa Hussien, Marcus A. Brubaker, and Michael S. Brown. arXiv preprint, 2021. If you use this code, please cite our paper:
+Reference code for the paper [CAMS: Color-Aware Multi-Style Transfer.](https://arxiv.org/abs/2106.13920) Mahmoud Afifi, Abdullah Abuolaim, Mostafa Hussien, Marcus A. Brubaker, and Michael S. Brown. arXiv preprint, 2021. If you use this code, please cite our paper:
 ```
 @article{afifi2021coloraware,
   title={CAMS: Color-Aware Multi-Style Transfer},
   author={Afifi, Mahmoud and Abuolaim, Abdullah and Hussien, Mostafa and Brubaker, Marcus A. and Brown, Michael S.},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2106.13920},
   year={2021}
 }
 ```

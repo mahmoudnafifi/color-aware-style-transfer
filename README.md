@@ -41,5 +41,8 @@ To enable this mode, use `SELECT_MATCHES = True`.
 * `CONTENT_FEATURE_DISTANCE`: = similarity metric for content loss. Options include: `'L2'` or `'COSINE'` (for cosine similarity). 
 * `OPTIMIZER`: optimization algorithm. Options include: `'LBFGS'`, `'Adam'`, `'Adagrad'`.
 
-
 ### MIT License
+
+### Related Research Projects
+- [HistoGAN](https://github.com/mahmoudnafifi/HistoGAN): A method to control colors of GAN and real images. Image auto recoloring is one of its applications.
+- [Image Recoloring Based on Object Color Distributions](https://github.com/mahmoudnafifi/Image_recoloring): A method to perform automatic image recoloring based on the distribution of colors associated with objects present in an image.

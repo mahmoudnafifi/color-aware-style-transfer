@@ -920,4 +920,4 @@ plt.ioff()
 plt.show()
 
 
-save_image(output.squeeze(0), 'output.png')
+save_image(output.detach().squeeze(0), 'output.png')

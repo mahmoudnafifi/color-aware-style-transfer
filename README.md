@@ -22,6 +22,8 @@ Reference code for the paper [CAMS: Color-Aware Multi-Style Transfer.](https://a
 ### Get Started
 Run `color_aware_st.py` or check the Colab link from [here](https://colab.research.google.com/drive/1_unMZ4zUqKwnSmMVZ1KknZQ74CXJzfvg?usp=sharing). 
 
+To compute the color-aware loss between two images, see `test_cams_loss.py`. To report the average color-aware loss for a set of pair images, use `report_losses_of_image_dir.py`. 
+
 ### Manual Selection
 Our method allows the user to manually select the color correspondences between palettes or ignore some colors when optimizing. 
 ![user_selection](https://user-images.githubusercontent.com/37669469/122466000-bd188480-cf86-11eb-92e2-f7ad46d07140.jpg)
